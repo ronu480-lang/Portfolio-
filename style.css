@@ -362,6 +362,169 @@ body{
 
 /* ===== FORM ===== */
 
+
+/* ================= CERTIFICATE SECTION ================= */
+
+.certificate-section {
+  padding: 50px 20px;
+}
+
+/* Heading */
+.certificate-section h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+
+/* ================= CERTIFICATE CONTAINER ================= */
+
+.certificate-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+/* ================= CERTIFICATE CARD ================= */
+
+.Cert1 {
+  width: 280px;
+  min-height: 180px;
+
+  padding: 25px;
+
+  /* Box Color */
+  background: #1e293b;
+
+  border-radius: 15px;
+
+  border: 1px solid #1e293b;
+
+  color: white;
+
+  text-align: center;
+
+  /* Shadow */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+
+  /* Hover Animation */
+  transition: all 0.3s ease;
+
+  /* Important */
+  box-sizing: border-box;
+}
+
+
+/* ================= CARD HOVER ================= */
+
+.Cert1:hover {
+  transform: translateY(-10px);
+
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ================= CERTIFICATE TITLE ================= */
+
+.Cert1 h4 {
+  font-size: 24px;
+
+  margin: 5px 0 12px;
+
+  color: white;
+}
+
+
+/* ================= DATE ================= */
+
+.Cert1 p {
+  font-size: 16px;
+
+  margin-bottom: 25px;
+
+  color: white;
+}
+
+
+/* ================= VIEW BUTTON ================= */
+
+.Cert1 a {
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background-color: white;
+
+  color: #5b21b6;
+
+  text-decoration: none;
+
+  border-radius: 6px;
+
+  font-weight: bold;
+
+  transition: all 0.3s ease;
+}
+
+
+/* ================= BUTTON HOVER ================= */
+
+.Cert1 a:hover {
+  background-color: #111827;
+
+  color: white;
+
+  transform: scale(1.05);
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .certificate-section {
+    padding: 40px 15px;
+  }
+
+  .certificate-section h1 {
+    font-size: 30px;
+  }
+
+  .certificate-container {
+    justify-content: center;
+  }
+
+  .Cert1 {
+    width: 280px;
+  }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 400px) {
+
+  .certificate-container {
+    gap: 15px;
+  }
+
+  .Cert1 {
+    width: 100%;
+    max-width: 320px;
+  }
+
+}
+
+
+
+
+
+
+
 .form-box{
     width:600px;
     background:#111827;
