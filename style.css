@@ -365,6 +365,8 @@ body{
 
 /* ================= CERTIFICATE SECTION ================= */
 
+
+
 .certificate-section {
   padding: 50px 20px;
 }
@@ -374,7 +376,8 @@ body{
   text-align: center;
   font-size: 35px;
   margin-bottom: 40px;
-  color: white;
+  margin-top: 50px;
+  color:#38bdf8;
 }
 
 
